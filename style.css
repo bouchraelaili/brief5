@@ -1,0 +1,65 @@
+body{
+	 background-image: url("bac.png");
+}
+.all{
+	background-color: #413D6E;
+	opacity:0.95;
+	width: 20%;
+	height: 880px;
+	margin: 7%;
+}
+.fleche{
+padding-left: 4%;
+padding-top: 3%;
+}
+#Quick{
+
+	font-family: Roboto;
+	font-weight: 15px;
+	font-size: 16px;
+	color: white;
+	padding-left: 4%;
+	margin-top: 10%;
+
+}
+#A{
+	color: white;
+	font-family: Roboto;
+	font-weight: 15px;
+	font-size: 16px;
+	margin-bottom: 10%;
+	margin-left: 6%;
+
+}
+ul{
+	list-style: none; 
+}
+.all2{
+	background-color: white;
+	width: 40%;
+	height: 880px;
+	position: absolute;
+	top: 13.5%;
+	margin-left: 26.3%;
+}
+ #search{
+ 	width: 70%;
+ 	border-radius: 7px;
+ 	padding-top: 1%;
+ 	padding-bottom: 1%;
+ 	margin-left: 3%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

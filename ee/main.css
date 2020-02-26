@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+  margin: 0;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+body a{
+  text-decoration: none;
+  list-style: none;
+}
+.leftmenu{
+  background-color: #413D6E;
+  width: 25%;
+  height: 100vh;
+  padding: 30px;
+}
+.leftmenu a{
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.dropdown-content a{
+  display: none;
+}
+.leftmenu a:hover +.dropdown-content a{
+  display: block;
+}
+.RightSection{
+  width: 75%;
+}
+.tabs{
+  display: flex;
+}
+.tabs a{
+  color: #95989A;
+  margin: 15px 0;
+  padding: 0 25px;
+  border-right: 1px solid rgba(150, 152, 154, 0.5);
+}
+#current{
+  color: #00B1FF;
+}
+.alltabs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.exitapp{
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.exitapp i{
+  margin: 0 25px;
+  color: #95989A;
+}
+.Search{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Search i{
+  margin-left: 20px;
+  color: #95989A;
+}
+.Search input{
+  width: 85%;
+  border: none;
+  background-color: #F5FAFC;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+::placeholder{
+  font-family: 'Roboto';
+  font-weight: lighter;
+  color: #95989A;
+}
+.rightmenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px;
+  color: #95989A;
+}
+.leftm a{
+  margin-right: 30px;
+}
